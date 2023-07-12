@@ -1,0 +1,17 @@
+name = "kit_browser"
+description = "Table browser for Kit databases"
+version = "0.1.0-dev"
+licenses= "GPL-3.0-or-later"
+
+authors = ["Fraser Wilson"]
+maintainers = ["Fraser Wilson <fraser@thewhitelion.eu>"]
+maintainers-logins = ["blancolioni"]
+
+tags = ["utility", "database", "gtk", "gui", "glade"]
+website = "https://github.com/blancolioni/kit_builder"
+
+executables = ["kit_browser"]
+[[depends-on]]
+gtkada = "^23.0.0"
+[[depends-on]]
+kit_db = "~0.1.0-dev"
